@@ -1,0 +1,615 @@
+<!doctype html>
+<html lang="en-us">
+	
+<!-- Mirrored from webtrendyio.github.io/iport/template/index-dark.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 02 Aug 2022 11:09:26 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>Kala Kamal Mahal Personal Portfolio | Personal Web Page</title>
+		<meta name="description" content="Hello, my name is Kala Kamal Mahal and I am a Life Coach!">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<!-- Tab Icon -->
+		<link rel="icon" type="image/jpg" href="img/Icon.png"/>
+
+		<!-- Remix Icons --> 
+		<link rel="stylesheet" type="text/css" href="fonts/remixicon.css">
+
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="css/bootstrap.min.css"> 
+
+		<!-- Aos Animate -->
+		<link rel="stylesheet" href="css/aos.css">
+
+		<!-- Main CSS -->
+		<link rel="stylesheet" href="css/styles-dark.css">
+
+		 <!-- <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>-->
+		<script src="jquery.youtubevideogallery.js"></script>	
+		<script src="jquery.colorbox.js"></script>
+		<link rel="stylesheet" href="youtube-video-gallery.css" type="text/css" rel="stylesheet">
+
+		<script> 
+			let slideIndex = 1;
+			showSlides(slideIndex);	
+				
+
+			// Next/previous controls
+			function plusSlides(n) {
+			  showSlides(slideIndex += n);
+			}
+
+			// Thumbnail image controls
+			function currentSlide(n) {
+			  showSlides(slideIndex = n);
+			}
+
+			function showSlides(n) {
+			  let i;
+			  let slides = document.getElementsByClassName("mySlides");
+			  let dots = document.getElementsByClassName("demo");
+			  let captionText = document.getElementById("caption");
+			  if (n === undefined) {n = ++slideIndex; }
+			  if (n > slides.length) {slideIndex = 1}
+			  if (n < 1) {slideIndex = slides.length}
+			  for (i = 0; i < slides.length; i++) {
+			    slides[i].style.display = "none";
+			  }
+			  for (i = 0; i < dots.length; i++) {
+			    dots[i].className = dots[i].className.replace(" active", "");
+			  }
+			  slides[slideIndex-1].style.display = "block";
+			  dots[slideIndex-1].className += " active";
+			  captionText.innerHTML = dots[slideIndex-1].alt;
+			}
+		</script> 
+
+		<style>  
+			* 
+			{
+			  box-sizing: border-box;
+			}
+
+			/* Position the image container (needed to position the left and right arrows) */
+			.container {
+			  position: relative;
+			}
+
+			/* Hide the images by default */
+			.mySlides {
+			  display: none;
+			}
+
+			/* Add a pointer when hovering over the thumbnail images */
+			.cursor {
+			  cursor: pointer;
+			}
+
+			/* Next & previous buttons */
+			.prev,
+			.next {
+			  cursor: pointer;
+			  position: absolute;
+			  top: 40%;
+			  width: auto;
+			  padding: 16px;
+			  margin-top: -50px;
+			  color: white;
+			  font-weight: bold;
+			  font-size: 20px;
+			  border-radius: 0 3px 3px 0;
+			  user-select: none;
+			  -webkit-user-select: none;
+			}
+
+			/* Position the "next button" to the right */
+			.next {
+			  right: 0;
+			  border-radius: 3px 0 0 3px;
+			}
+
+			/* On hover, add a black background color with a little bit see-through */
+			.prev:hover,
+			.next:hover {
+			  background-color: rgba(0, 0, 0, 0.8);
+			}
+
+			/* Number text (1/3 etc) */
+			.numbertext {
+			  color: #f2f2f2;
+			  font-size: 12px;
+			  padding: 8px 12px;
+			  position: absolute;
+			  top: 0;
+			}
+
+			/* Container for image text */
+			.caption-container {
+			  text-align: center;
+			  background-color: #222;
+			  padding: 2px 16px;
+			  color: white;
+			}
+
+			.row:after {
+			  content: "";
+			  display: table;
+			  clear: both;
+			}
+
+			/* Six columns side by side */
+			.column {
+			  float: left;
+			  width: 16.66%;
+			}
+
+			/* Add a transparency effect for thumnbail images */
+			.demo {
+			  opacity: 0.6;
+			}
+
+			.active,
+			.demo:hover {
+			  opacity: 1;
+			}
+
+						body {
+	            font-family: sans-serif;
+	            font-size: 100%;
+	        }
+	        .embedded-video-16-9 {
+  			width:  72vw;
+  			height: 40.5vw; /* 90*9/16 */
+  			margin-left: 2vw;
+  			margin-right: 2vw;
+			}
+
+			@media (min-width: 893px) {
+  			.embedded-video-16-9 {
+    		width: 36vw;
+    		height: 20.8125vw; /* 45*9/16 */
+    		margin-left: 2vw;
+   			margin-right: 2vw
+  			}
+
+	        pre,
+	        body.loaded textarea {
+	            display:none;
+	        }
+	        body.loaded pre {
+	            background-color: #BAFFBA;
+	            border: 0 none;
+	            border-left: 4px solid #2e8b57;
+	            display: inline-block;
+	            font-size: 1.1em;
+	            margin: 0 0 8px 0;
+	            padding: 8px 30px 8px 12px;
+	        }
+		</style> 
+
+				
+	</head>
+	<body>
+		<!-- Menubar -->
+		<header class="menu-header">
+			<div class="container position-relative">
+				<nav class="navbar navbar-expand-lg position-absolute align-items-baseline">
+					<a class="navbar-brand d-lg-none" href="#">Kala Kamal Mahal</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav mr-auto">
+							<li class="nav-item">
+								<a class="nav-link pl-lg-0" href="index.html">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="about-dark.html">About</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="blog-dark.html">Blog</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="contact-dark.html">Contact</a>
+							</li>
+						</ul>
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item">
+								<a href="mailto:kala.kamalmahal@gmail.com" class="nav-link"><small><i class="ri-mail-open-line"></i> kala.kamalmahal@gmail.com</small></a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</header>
+		<!-- End Menubar -->
+		
+		<main>
+			
+			<!-- Home Section -->
+			<section class="home d-flex align-items-center position-relative min-vh-100" id="home">		
+				<!-- Background Image -->
+				<img src="img/Kala1.jpg" alt="Kala Image" class="background-image" draggable="false">				
+				<div class="container">					
+					<div class="row d-flex align-items-center">
+						<div class="col-sm-6">			
+							<p><br><br><br><br><br><br><br><br><br><br><br><br></p>
+							<h1 style="font-family:Arial; color:Yellow; font-size: 40px;">Kala Kamal Mahal</h1>							
+							<p><strong>Life Specialist and Soul Healer</strong></p>
+							<p><br></p>
+							<strong class="d-block">								
+								<q>Breaking the mind barrier!</q>
+							</strong>
+							<img src="img/signature.png" alt="My Signature" title="Signature" class="signature mt-2">
+							<p><br><br></p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End Home Section -->
+
+			<!-- ME Section -->
+			<section class="ME my-2 py-2">
+				<div class="container">
+					<div class="row" data-aos="zoom-in">
+						<div class="col-sm-12 text-center">
+							<span class="lead font-weight-normal text-secondary">My name is Kala Kamal Mahal. I was born on 1987 May 25 in Tamil Nadu. My father M Dayanandan and Mother C Palamma. My children are Mishma Kamal Mahal, Anishma Kamal Mahal and Mahima Kamal Mahal.</span>							
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- ME Section -->
+
+			<!-- Course Section -->
+			<section class="specialty my-25 py-2 overflow-x-hidden">
+				<div class="container">
+					<div class="row" data-aos="fade-up">
+						<div class="col-sm-12 text-center">							
+							<hr style="height:2px;border-width:0;color:gray;background-color:gray">	
+							<a href="single-blog1.html">
+								<img src="img/blog/Course-a1.jpg" class="img-fluid" alt="Post Title" title="Post Title">
+							</a>
+							<span class="hobby-title">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</span>					
+							<a href="single-blog2.html">
+								<img src="img/blog/Course-a2.jpg" class="img-fluid" alt="Post Title" title="Post Title">
+							</a>
+							<hr style="height:2px;border-width:0;color:gray;background-color:gray">	
+						</div>						
+					</div>
+				</div>
+			</section>
+			<!-- End Course Section -->
+
+			<!-- About Section -->
+			<section class="about my-2 pt-2 overflow-x-hidden">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6" data-aos="fade-right">
+							<img src="img/about-600x800.jpg" alt="About Me" title="About Me" class="img-fluid" />
+						</div>
+						<div class="col-md-6" data-aos="fade-left">
+							<p> </p>
+							<span class="lead font-weight-normal text-secondary d-block mt-3">Find out more</span>
+
+							<h3 class="display-6 font-weight-bold mb-6">The Woman Behind</h3>
+							<p> </p>
+							<p>After completing Plus Two studies in 2004, he entered into family life. Married in 2004, separated in 2018 after having 3 children. Being a housewife and mother of three children, she took her BBA from Annamalai University but could not complete it.</p>
+
+							<p>After working in AVIVA Life Insurance, Max Newyork Life Insurance, TATA AIG as an Insurance agent for 2 years without income and gaining experience in customer relations, he worked in 'CLUB MAHINDRA HOIDAYS' for 7 years and became proficient in marketing. </p>
+
+							<p>After gaining experience in student counseling in marketing at ICFAI UNIVERSITY, he entered the field of motivational training in 2018 using his own life experiences. </p>
+							
+							<p>Since 2018, spiritual training has started under Guru Manoj KG. Thus, after gaining spiritual wisdom, he started leading various training programs with more mental strength. </p>
+
+							<p>In 2023, a women's safety organization called Vavinsam was formed to curb the rising suicide rate among women and children.</p>
+
+							<p>In 2024, special soul healing training programs and projects were launched to address the problems of those suffering from stress and mental health. Now it is possible to provide mental health to many individuals and lead them to a peaceful life and thereby to success in life.</p>
+
+							<p>In this way, short team aims to become a well-known trainer leading the lives of many individuals to peace and success.</p>
+
+							
+							<!--
+							<h4 class="font-weight-bold text-secondary mt-4 mb-4">Education</h4>
+
+							
+							<div class="education">
+								<div class="year">1998</div>
+								<div class="line"></div>
+								<div class="location">
+									<span>TESL</span>
+									<span>Trinity College, London</span>
+								</div>
+							</div>
+							
+							
+							<div class="education">
+								<div class="year">1988</div>
+								<div class="line"></div>
+								<div class="location">
+									<span>Master’s in English</span>
+									<span>Bharathiar University</span>
+								</div>
+							</div>
+							
+							
+							<div class="education">
+								<div class="year">1986</div>
+								<div class="line"></div>
+								<div class="location">
+									<span>Bachelor of Education</span>
+									<span>Annamalai University</span>
+								</div>
+							</div>
+							
+							
+							<div class="education">
+								<div class="year">1977</div>
+								<div class="line"></div>
+								<div class="location">
+									<span>Master’s Degree</span>
+									<span>Bhopal University</span>
+								</div>
+							</div>
+							
+							
+							<div class="education">
+								<div class="year">1973</div>
+								<div class="line"></div>
+								<div class="location">
+									<span>Bachelor’s Degree</span>
+									<span>Andhra University</span>
+								</div>
+							</div>
+							-->
+
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End About Section -->
+
+
+			<!-- Specialties Section -->
+			<section class="specialty my-3 py-3 overflow-x-hidden">
+				<div class="container">
+					<div class="row" data-aos="fade-up">
+					<div class="col-md-12" data-aos="fade-right">			
+						<div class="col-sm-12 text-center">
+							<span class="lead font-weight-normal text-secondary">What can I do?</span>
+							<h2 class="display-6 font-weight-bold mb-6">BODHYAM DIRECTOR</h2>
+							<h2 class="display-6 font-weight-bold mb-6">LIFE SPECIALIST</h2>
+						</div>
+						<div class="Family">
+							<center>
+								<img src="img/kala3.jpg" class="img-fluid" alt="kala" title="kala" style="width:50%"><br><br>
+							</center>
+						</div>
+						<div class="col-sm-12">
+							<div class="d-flex justify-content-center text-center">
+								<div class="icon-box">
+									<div class="shape">
+										<i class="ri-database-2-line"></i>
+									</div>
+									<div class="line"></div>
+									<div>Soul Healer</div>
+								</div>
+								<div class="icon-box">
+									<div class="shape">
+										<i class="ri-checkbox-multiple-line"></i>
+									</div>
+									<div class="line tall"></div>
+									<div>Life Coach</div>
+								</div>
+								<div class="icon-box">
+									<div class="shape">
+										<i class="ri-computer-line"></i>
+									</div>
+									<div class="line"></div>
+									<div>Motivation Trainer</div>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+			</section>
+			<!-- End Specialties Section -->
+
+
+			<!-- Experience Section -->
+			<section class="experience my-2 overflow-x-hidden">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6" data-aos="fade-right">
+							<span class="lead font-weight-normal text-secondary">What am I?</span>
+							<h2 class="display-6 font-weight-bold mb-6">About</h2>
+							<p class="mb-4">My goal is to create a generation that is mentally and physically healthy. Remove suicidal fear and suicidal tendencies from individuals. Organize activities for physical, mental, social and spiritual development.</p>
+							<p class="mb-4">My Training Programs - </p>							
+							
+								<div class="desc">									
+									<p> • Soul healing counseling</p>							
+									<p> • Internal transformation training</p>								
+									<p> • Training to overcome fear</p>								
+									<p> • Stress reduction sessions<</p>	
+									<p> • Inner healing and restoration</p>
+									<p> • Training to increase gratitude and patience<</p>
+								</div>
+
+							<p class="mb-4">My Achievements - </p>	
+
+								<div class="desc">									
+									<p> BODHYAM: A field of action where women unite against suicide</p>							
+									<p> PRAYANA: 21 Day Inner Transformation Online Program</p>								
+									<p> PARIVARTHANA: 111 Day Inner & Outer Transformation Online Program</p>							
+									<p> SATH-VA: 2/3/5/7 days live campaign<</p>
+									<p> (Self Healing / Trauma Healing / Soul to Soul Therapy developed by myself)</p>	
+								</div>
+
+						</div>
+						<div class="col-md-6" data-aos="fade-left">
+							<img src="img/experience-600x800.jpg" alt="Kala Image" title="Kala Kamal Mahal Personal Portfolio" class="img-fluid">
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End Experience Section -->
+
+			<!-- Video Section -->
+			<section class="specialty my-25 py-2 overflow-x-hidden">
+				<div class="container">
+					<div class="row" data-aos="fade-up">
+						<div class="col-sm-12 text-center">
+							<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+
+							<center>
+								<iframe allowFullScreen="allowFullScreen" class="embedded-video-16-9" src="https://www.youtube.com/embed/c7Jw7Hp2g9M?rel=1" seamless/></iframe>						
+
+								<iframe allowFullScreen="allowFullScreen" class="embedded-video-16-9" src="https://www.youtube.com/embed/T2ahJIVvFz0?rel=1" seamless/></iframe>
+							</center>	
+
+							<hr style="height:2px;border-width:0;color:gray;background-color:gray">						
+						</div>						
+					</div>
+				</div>
+			</section>
+			<!-- End Video Section -->
+
+			<!-- Hobbies Section -->
+			<section class="hobbies my-3 py-5">
+				<div class="container">
+					<div class="row" data-aos="zoom-in">
+						<div class="col-sm-12 text-center">
+							<span class="lead font-weight-normal text-secondary">What do I like?</span>
+							<h2 class="display-6 font-weight-bold mb-6">Hobbies</h2>
+						</div>
+						<div class="col-sm-12 text-center">
+							<!-- Hobbies Item -->
+							<span class="hobby">
+								<i class="ri-music-2-line"></i>
+								<span class="hobby-title">
+									Reading
+								</span>
+							</span>
+							<!-- End Hobbies Item -->
+
+							<!-- Hobbies Item -->
+							<span class="hobby">
+								<i class="ri-open-arm-line"></i>
+								<span class="hobby-title">
+									Teaching
+								</span>
+							</span>
+							<!-- End Hobbies Item -->
+
+							<!-- Hobbies Item -->
+							<span class="hobby">
+								<i class="ri-movie-line"></i>
+								<span class="hobby-title">
+									Training
+								</span>
+							</span>
+							<!-- End Hobbies Item -->
+							
+							<!-- Hobbies Item -->
+							<span class="hobby">
+								<i class="ri-map-line"></i>
+								<span class="hobby-title">
+									Travel
+								</span>
+							</span>
+							<!-- End Hobbies Item -->
+							
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End Hobbies Section -->
+
+			
+			<!-- Images Section -->
+			<section class="hobbies my-3 py-3">
+			<!-- Container for the image gallery -->
+			<div class="container">
+
+			  <!-- Full-width images with number text -->
+			  <div class="mySlides" style="display: block;">
+			      <center><img src="img/Kamal1.jpg" style="width:80%"></center>
+			  </div>
+
+			  <div class="mySlides">
+			      <center><img src="img/Kamal2.jpg" style="width:80%"></center>
+			  </div>
+
+			  <div class="mySlides">
+			      <center><img src="img/Kamal3.jpg" style="width:80%"></center>
+			  </div>
+
+			  <div class="mySlides">
+			      <center><img src="img/Kamal4.jpg" style="width:80%"></center>
+			  </div>
+			  
+			  <div class="mySlides">
+			     <center> <img src="img/Kamal5.jpg" style="width:80%"></center>
+			  </div>
+
+			  <div class="mySlides">
+			      <center><img src="img/Kamal6.jpg" style="width:80%"></center>
+			  </div>
+
+			  <div class="mySlides">
+			      <center><img src="img/Kamal7.jpg" style="width:80%"></center>
+			  </div>
+
+			  <div class="mySlides">
+			      <center><img src="img/Kamal8.jpg" style="width:80%"></center>
+			  </div>
+				
+			  <div class="mySlides">
+			      <center><img src="img/Kamal9.jpg" style="width:80%"></center>
+			  </div>
+
+			  <div class="mySlides">			    
+			      <center><img src="img/Kamal10.jpg" style="width:80%"></center>
+			  </div>
+			 
+			  <!-- Next and previous buttons -->
+			  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			  <a class="next" onclick="plusSlides(1)">&#10095;</a>	
+
+			</div>
+			</section>
+			<!-- End Images Section -->
+
+			
+			<!-- Contact Section -->
+			<section class="contacts mt-3 pb-3">
+				<div class="container">
+					<div class="row" data-aos="fade-up">							
+						<div class="col-sm-12 text-center cp">
+							<strong class="d-block">© Copyright 2022 | AEnon Technologies | All Rights Reserved</strong>
+							<img src="img/signature.png" alt="My Signature" title="Signature" class="signature mt-2">
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End Contact Section -->
+		</main>
+		
+		<!-- JQuery -->
+		<script src="js/jquery-3.4.1.min.js"></script>
+
+		<!-- Custom Cursor Script -->
+		<script src="js/custom-cursor.js"></script>
+
+		<!-- Bootstrap -->
+		<script src="js/bootstrap.min.js"></script>
+
+		<!-- Aos Animate -->
+		<script src="js/aos.js"></script>
+		
+		<!-- Main JavaScript -->
+		<script src="js/script.js"></script>
+	</body>
+
+<!-- Mirrored from webtrendyio.github.io/iport/template/index-dark.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 02 Aug 2022 11:09:32 GMT -->
+</html>
