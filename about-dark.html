@@ -55,7 +55,21 @@
 	            font-size: 1.1em;
 	            margin: 0 0 8px 0;
 	            padding: 8px 30px 8px 12px;
-	        }			     
+	        }	
+
+	        .embedded-video-16-9 {
+  			width:  72vw;
+  			height: 40.5vw; /* 90*9/16 */
+  			margin-left: 2vw;
+  			margin-right: 2vw;
+			}
+			@media (min-width: 893px) {
+  			.embedded-video-16-9 {
+    		width: 36vw;
+    		height: 20.8125vw; /* 45*9/16 */
+    		margin-left: 2vw;
+   			margin-right: 2vw
+  			}		     
 		</style>  	
 
 	</head>
@@ -155,26 +169,29 @@
 				</div>
 			<!-- End Page Header Section -->
 
-	
-			
-			<!-- Page Header Section -->
-			<section class="single-blog-header">				
-				<div class="container">	
-					<div class="col-sm-10 offset-sm-1">		
+
+			<!-- Video Section -->
+			<section class="specialty my-25 py-2 overflow-x-hidden">
+				<div class="container">
+					<div class="row" data-aos="fade-up">
+						<div class="col-sm-12 text-center">
+							<hr style="height:2px;border-width:0;color:gray;background-color:gray">
 							<center>								
 								<h5 class="display-5 font-weight-bold mb-5">Specialisation</h5>
-							</center>							
-							<center>								
-								<iframe allowFullScreen="allowFullScreen" src="https://www.youtube.com/embed/wvxMU7ZzTS0?rel=1" seamless/></iframe>
+							</center>	
 
-								<iframe allowFullScreen="allowFullScreen" src="https://www.youtube.com/embed/cp0pATXDwfs?rel=1" seamless/></iframe>		
-							</center>			
-							<hr style="height:2px;border-width:0;color:gray;background-color:gray">					
+							<center>
+								<iframe allowFullScreen="allowFullScreen" class="embedded-video-16-9" src="https://www.youtube.com/embed/wvxMU7ZzTS0?rel=1" seamless/></iframe>						
+
+								<iframe allowFullScreen="allowFullScreen" class="embedded-video-16-9" src="https://www.youtube.com/embed/cp0pATXDwfs?rel=1" seamless/></iframe>
+							</center>	
+
+							<hr style="height:2px;border-width:0;color:gray;background-color:gray">						
+						</div>						
 					</div>
-					
 				</div>
 			</section>
-			<!-- End Page Header Section -->	
+			<!-- End Video Section -->
 
 
 			<!-- Contact Section -->
